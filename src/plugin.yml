@@ -1,0 +1,31 @@
+name: Plugintestowy # the plugins name as it should appear in the plugin list /pl
+version: 0.0.0.0.1 # the plugin's version
+author: Jacob.Tm
+main: jacobtm.spigot.plugin.Main
+api-version: 1.16
+# Replace "kit" with the name of your command.
+commands:
+  kit:
+    description: Nie wiem jakieś itemy
+    usage: /<command>
+    permission: plugin.command.kit
+  fly:
+    description: latanie
+    usage: /<command>
+    permission: plugin.command.fly
+  god:
+    description: godmode tak
+    usage: /<command>
+    permission: plugin.command.god
+  jezyk:
+    description: mlody jezyk
+    usage: /<command>
+    permission: plugin.command.jezyk
+  fulljezyk:
+    description: mlody jezyk ale full
+    usage: /<command>
+    permission: plugin.command.fulljezyk
+  wiadro:
+    description: robisz wiadro i tyle
+    usage: /<command>
+    permission: plugin.command.wiadro

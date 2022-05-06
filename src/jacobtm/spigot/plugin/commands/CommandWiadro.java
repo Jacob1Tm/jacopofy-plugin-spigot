@@ -1,4 +1,4 @@
-package jacobtm.spigot.plugin;
+package jacobtm.spigot.plugin.commands;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;

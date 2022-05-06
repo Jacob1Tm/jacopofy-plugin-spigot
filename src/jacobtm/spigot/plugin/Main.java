@@ -1,5 +1,6 @@
 package jacobtm.spigot.plugin;
 
+import jacobtm.spigot.plugin.commands.*;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 

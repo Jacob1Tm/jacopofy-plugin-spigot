@@ -1,4 +1,4 @@
-package jacobtm.spigot.plugin;
+package jacobtm.spigot.plugin.commands;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;

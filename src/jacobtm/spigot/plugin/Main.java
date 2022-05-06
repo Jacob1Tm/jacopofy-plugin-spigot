@@ -8,9 +8,7 @@ import java.util.Objects;
 
 public class Main extends JavaPlugin {
 
-    public static void main(String[] args) {
-        System.out.println("to plugin do minecrafta debilu");
-    }
+    public static void main(String[] args) { System.out.println("to plugin do minecrafta debilu");}
 
     @Override
     public void onEnable() {
@@ -25,7 +23,5 @@ public class Main extends JavaPlugin {
     }
 
     @Override
-    public void onDisable() {
-        Bukkit.getLogger().info("Plugin wyłączony");
-    }
+    public void onDisable() { Bukkit.getLogger().info("Plugin wyłączony" );}
 }

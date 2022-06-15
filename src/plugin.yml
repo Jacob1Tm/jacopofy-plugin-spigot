@@ -29,3 +29,19 @@ commands:
     description: robisz wiadro i tyle
     usage: /<command>
     permission: plugin.command.wiadro
+  test:
+    description: test
+    usage: /<command>
+    permission: plugin.command.test
+  speed:
+    description: speed
+    usage: /<command>
+    permission: plugin.command.speed
+  day:
+    description: day
+    usage: /<command>
+    permission: plugin.command.day
+  night:
+    description: night
+    usage: /<command>
+    permission: plugin.command.night

@@ -19,7 +19,13 @@ public class Main extends JavaPlugin {
         Objects.requireNonNull(this.getCommand("jezyk")).setExecutor(new CommandJezyk());
         Objects.requireNonNull(this.getCommand("fulljezyk")).setExecutor(new CommandFullJezyk());
         Objects.requireNonNull(this.getCommand("wiadro")).setExecutor(new CommandWiadro());
-
+        Objects.requireNonNull(this.getCommand("test")).setExecutor(new CommandTest());
+        Objects.requireNonNull(this.getCommand("speed")).setExecutor(new CommandSpeed());
+        Objects.requireNonNull(this.getCommand("speed")).setTabCompleter(new CommandSpeed());
+        //command day
+        Objects.requireNonNull(this.getCommand("day")).setExecutor(new CommandDay());
+        //command night
+        Objects.requireNonNull(this.getCommand("night")).setExecutor(new CommandNight());
     }
 
     @Override
